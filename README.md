@@ -21,6 +21,22 @@ cp -r dugri/skills/dugri ~/.claude/skills/
 
 ## Use
 
+A skill loads when you ask for it. Type `/dugri` at the start of a session.
+
+### Always on
+
+To get the voice in every session without asking, install it as an output style:
+
+```bash
+mkdir -p ~/.claude/output-styles
+curl -fsSL https://raw.githubusercontent.com/orarbel/dugri/main/output-styles/dugri.md \
+  -o ~/.claude/output-styles/dugri.md
+```
+
+Then run `/output-style dugri` in Claude Code, or set `"outputStyle": "dugri"` in `~/.claude/settings.json`.
+
+### Commands
+
 ```
 /dugri            # on, default level (tachles)
 /dugri sababa     # friendly
