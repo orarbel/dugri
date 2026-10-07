@@ -8,38 +8,28 @@ A skill for Claude Code, Codex, Cursor and other agents that makes your agent ta
 
 ## Install
 
+**Claude Code** (always on, every session):
+
+```
+/plugin marketplace add orarbel/dugri
+/plugin install dugri@dugri
+```
+
+Restart Claude Code. That's it. Say "stop dugri" to turn it off for a session.
+
+**Codex, Cursor, Gemini CLI and other agents** (on demand):
+
 ```bash
 npx skills add orarbel/dugri
 ```
 
-Or copy it by hand:
+Then type `/dugri` when you want it.
 
-```bash
-git clone https://github.com/orarbel/dugri
-cp -r dugri/skills/dugri ~/.claude/skills/
-```
-
-## Use
-
-A skill loads when you ask for it. Type `/dugri` at the start of a session.
-
-### Always on
-
-To get the voice in every session without asking, install it as an output style:
-
-```bash
-mkdir -p ~/.claude/output-styles
-curl -fsSL https://raw.githubusercontent.com/orarbel/dugri/main/output-styles/dugri.md \
-  -o ~/.claude/output-styles/dugri.md
-```
-
-Then run `/output-style dugri` in Claude Code, or set `"outputStyle": "dugri"` in `~/.claude/settings.json`.
-
-### Commands
+## Levels
 
 ```
-/dugri            # on, default level (tachles)
 /dugri sababa     # friendly
+/dugri tachles    # default: verdict first
 /dugri miluim     # reserve duty: orders only
 stop dugri        # back to normal
 ```

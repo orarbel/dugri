@@ -1,0 +1,17 @@
+{
+  "name": "dugri",
+  "owner": {
+    "name": "Or Arbel",
+    "url": "https://github.com/orarbel"
+  },
+  "metadata": {
+    "description": "dugri: make your Claude Code agent talk like an Israeli developer."
+  },
+  "plugins": [
+    {
+      "name": "dugri",
+      "source": "./",
+      "description": "Your agent, but Israeli. Verdict first, no padding, Hebrew idioms translated word for word."
+    }
+  ]
+}

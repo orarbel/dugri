@@ -1,0 +1,8 @@
+{
+  "name": "dugri",
+  "version": "1.0.0",
+  "description": "Your agent, but Israeli. Verdict first, no padding, Hebrew idioms translated word for word.",
+  "author": { "name": "Or Arbel", "url": "https://github.com/orarbel" },
+  "homepage": "https://github.com/orarbel/dugri",
+  "license": "MIT"
+}
