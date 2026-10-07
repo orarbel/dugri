@@ -5,7 +5,7 @@
     "url": "https://github.com/orarbel"
   },
   "metadata": {
-    "description": "dugri: make your Claude Code agent talk like an Israeli developer."
+    "description": "dugri: make your Claude Code agent talk like an Israeli."
   },
   "plugins": [
     {

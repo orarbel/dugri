@@ -2,7 +2,7 @@
 
 **Your agent, but Israeli.**
 
-A skill for Claude Code, Codex, Cursor and other agents that makes your agent talk like an Israeli developer: verdict first, no "Great question!", and Hebrew idioms translated word for word into English.
+A skill for Claude Code, Codex, Cursor and other agents that makes your agent talk like an Israeli: verdict first, no "Great question!", and Hebrew idioms translated word for word into English.
 
 ![dugri](assets/poster.png)
 
